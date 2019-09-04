@@ -1,0 +1,30 @@
+.display-4{
+    background: #0195C5;
+}
+
+ img{
+    width: 500px;
+    height: 400px;
+}
+input[type=file]{
+  padding: 5px;
+  background: gray;
+  border: 2px solid black;
+}
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+body{
+    background-color: #B2B3B5 !important;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 6px !important;
+    color: #4C535A;
+    border-color: border-color: #00AA66;
+    border-style: solid;
+    background-color: #E9ECEF;
+    border: 1px solid gray;
+}
