@@ -1,24 +1,26 @@
-.display-4{
-    background: #0195C5;
+.display-4 {
+    background: rgb(36, 36, 34);
+    color: #fff;
+    height: 90px;
+    text-align: center;
 }
 
- img{
+img {
     width: 500px;
     height: 400px;
 }
-input[type=file]{
-  padding: 5px;
-  background: gray;
-  border: 2px solid black;
+
+input[type=file] {
+    padding: 5px;
+    background: gray;
+    border: 2px solid black;
 }
-form{
-    width: 500px;
-    margin: 0 auto;
+
+body {
+    background-color: rgb(222, 228, 236) !important;
 }
-body{
-    background-color: #B2B3B5 !important;
-}
-button{
+
+button {
     width: 100px;
     height: 40px;
     border-radius: 6px !important;
@@ -27,4 +29,22 @@ button{
     border-style: solid;
     background-color: #E9ECEF;
     border: 1px solid gray;
+}
+
+
+#carImage,
+#plateNo {
+    margin: 30px 10px 15px 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: 300px;
+    max-width: 500px;
+    height: 400px;
+    max-height: 800px;
+    align-self: center;
+}
+
+#plateNo {
+    border: 1px solid black;
+    background: rgb(158, 167, 175);
 }
